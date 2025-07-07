@@ -3,7 +3,7 @@ from main import clean_csv
 
 # To locally host the program with stream lit: streamlit run app.py
 
-st.title("CSV Cleaner Tool (from home)")
+st.title("XRay CSV Cleaner Tool")
 
 uploaded_file = st.file_uploader("Upload CSV", type="csv")
 
