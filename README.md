@@ -1,45 +1,50 @@
 # xray_formatting
-Overview
+Overview:
+
 This tool is a simple Python-based CSV formatter. It reads a user-supplied CSV file, applies your custom formatting rules, and writes out a corrected version alongside the original.
 
 ⸻
 
-Features
+Features:
+
 • One-click executable: No Python install required—just download and double-click.
 • Interactive file selection: Windows File Explorer pops up so you can pick the CSV to fix.
 • Automatic output naming: The fixed file is saved next to the original, with  (fixed) appended to its name.
 
 ⸻
 
-Prerequisites
+Prerequisites:
+
 • Windows 10 or later
 • No additional libraries needed (all bundled into the executable)
 
 ⸻
 
-Installation
+Installation:
+
 1. Download the latest release ZIP or installer package for Windows.
 2. Unzip (if necessary) and place the executable (csv_formatter.exe) wherever you like—e.g., your Desktop or a dedicated utilities folder.
 
 ⸻
 
-Usage
-1. Launch
+Usage:
+1. Launch:
     • Double-click csv_formatter.exe.
     • A brief console window will appear.
-2. Select your file
+2. Select your file:
     • After a few seconds, a File Explorer dialog opens.
     • Navigate to and click the CSV file you wish to reformat.
     • Click Open.
-3. Wait
+3. Wait:
     • When done, it closes automatically.
-4. Find the output
+4. Find the output:
     • In the same folder as your original file, you’ll now see <original_name> (fixed).csv.
     • Open or import this file as you normally would.
 
 ⸻
 
-Troubleshooting
+Troubleshooting:
+
 • Nothing happens when I double-click
     • Ensure the file extension is .exe.
     • Try right-click → Run as administrator to rule out permission issues.
