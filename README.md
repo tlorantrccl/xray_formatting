@@ -46,7 +46,7 @@ Usage:
 Troubleshooting:
 
 • Nothing happens when I double-click<br>
-    • Ensure the file extension is .exe.<br>
+    <t>• Ensure the file extension is .exe.<br>
     • Try right-click → Run as administrator to rule out permission issues.<br>
 • File Explorer doesn’t open<br>
     • Wait 5–10 seconds after launch; the script needs a moment to initialize.<br>
