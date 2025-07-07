@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 # This file works on its own. The app.py file is only to host the program online.
+# To recreate the executable: pyinstaller --onefile --name=xray_test_executions_formating fixing_xray.py
 
 
 def fix_multiline_csv(path_in: str, path_out: str, sep: str = ";") -> None:

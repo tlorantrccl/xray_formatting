@@ -1,7 +1,7 @@
 import streamlit as st
 from main import clean_csv
 
-# To update the executable run this line in the terminal: pyinstaller --onefile --name=xray_test_executions_formating app.py
+# To locally host the program with stream lit: streamlit run app.py
 
 st.title("CSV Cleaner Tool (from home)")
 
