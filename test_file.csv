@@ -1,0 +1,187 @@
+Issue Key,Summary,Priority,Workflow Status,Fix Versions,Components,Test Plan,"Status,,,,"
+ARGO-149337,SIT2 RCG & IBS_GAP - ARGO-6087_FIT - Availability Count Display At Category Listing,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 22 (20%),FAILED: 5 (4.55%),BLOCKED: 7 (6.36%),EXECUTING: 26 (23.64%),TO DO: 50 (45.45%)"
+ARGO-149336,SIT2 RCG & IBS_GAP - ARGO-48282_SS - Per Person Display,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 7 (9.86%),EXECUTING: 13 (18.31%),TO DO: 51 (71.83%),,"
+ARGO-143317,SIT2 RCG & IBS_Credits - Redeem based on Penalty - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 52 (53.06%),FAILED: 33 (33.67%),BLOCKED: 13 (13.27%),,"
+ARGO-143307,SIT2 RCG & IBS_Credits - Redeem based on Penalty - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 86 (100%),,,,"
+ARGO-143296,SIT2 RCG & IBS_Credits - Redeem based on Penalty - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 61 (51.7%),FAILED: 46 (38.98%),BLOCKED: 3 (2.54%),N/A: 8 (6.78%),"
+ARGO-143283,SIT2 RCG & IBS_Credits - Redeem based on Penalty - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 36 (31.58%),FAILED: 48 (42.1%),BLOCKED: 30 (26.32%),,"
+ARGO-143191,SIT2 RCG & IBS_Credits - Redeem based on Refund - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (1.02%),BLOCKED: 97 (98.98%),,,"
+ARGO-143179,SIT2 RCG & IBS_Credits - Redeem based on Refund - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (1.16%),BLOCKED: 85 (98.84%),,,"
+ARGO-143178,SIT2 RCG & IBS_Credits - Redeem based on Refund - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (0.85%),BLOCKED: 117 (99.15%),,,"
+ARGO-143177,SIT2 RCG & IBS_Credits - Redeem based on Refund - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (0.88%),BLOCKED: 113 (99.12%),,,"
+ARGO-143175,SIT2 RCG & IBS_Credits - Redeem Credit based on Usage Condition - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (0.95%),BLOCKED: 104 (99.05%),,,"
+ARGO-143174,SIT2 RCG & IBS_Credits - Redeem Credit based on Usage Condition - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 216 (100%),,,,"
+ARGO-143173,SIT2 RCG & IBS_Credits - Redeem Credit based on Usage Condition - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 8 (5.52%),FAILED: 8 (5.52%),BLOCKED: 129 (88.96%),,"
+ARGO-143172,SIT2 RCG & IBS_Credits - Redeem Credit based on Usage Condition - FIT Booking,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 44 (30.34%),FAILED: 43 (29.66%),BLOCKED: 44 (30.34%),N/A: 4 (2.76%),EXECUTING: 10 (6.9%)"
+ARGO-143171,SIT2 RCG & IBS_Credits - Redeem Based on FOP - Price - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 2 (2.47%),FAILED: 6 (7.41%),BLOCKED: 73 (90.12%),,"
+ARGO-143170,SIT2 RCG & IBS_Credits - Redeem Based on FOP - Price - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 62 (100%),,,,"
+ARGO-143169,SIT2 RCG & IBS_Credits - Redeem Based on FOP - Price - Agency Booking,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 14 (19.18%),FAILED: 12 (16.44%),TO DO: 47 (64.38%),,"
+ARGO-143168,SIT2 RCG & IBS_Credits - Redeem Based on FOP - Price - FIT Booking,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 16 (17.98%),FAILED: 17 (19.1%),BLOCKED: 15 (16.85%),EXECUTING: 41 (46.07%),"
+ARGO-143167,SIT2 RCG & IBS_Credits - Redeem Based on FOP - User Input - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 52 (52.53%),FAILED: 45 (45.45%),BLOCKED: 2 (2.02%),,"
+ARGO-143166,SIT2 RCG & IBS_Credits - Redeem Based on FOP - User Input - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 75 (100%),,,,"
+ARGO-143165,SIT2 RCG & IBS_Credits - Redeem Based on FOP - User Input - Agency Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 41 (70.69%),FAILED: 17 (29.31%),,,"
+ARGO-143164,SIT2 RCG & IBS_Credits - Redeem Based on FOP - User Input - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 49 (49%),FAILED: 45 (45%),BLOCKED: 6 (6%),,"
+ARGO-143117,SIT2 RCG & IBS_Credits - Redeem Based on Discount - Price - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (1.15%),BLOCKED: 86 (98.85%),,,"
+ARGO-143116,SIT2 RCG & IBS_Credits - Redeem Based on Discount - Price - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 65 (100%),,,,"
+ARGO-143115,SIT2 RCG & IBS_Credits - Redeem Based on Discount - Price - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 46 (64.79%),FAILED: 15 (21.13%),BLOCKED: 10 (14.08%),,"
+ARGO-143114,SIT2 RCG & IBS_Credits - Redeem Based on Discount - Price - FIT Booking,Select a Priority,In QA,SIT2 Hardening Testing,,,"PASSED: 50 (50.51%),FAILED: 35 (35.35%),EXECUTING: 14 (14.14%),,"
+ARGO-143113,SIT2 RCG & IBS_Credits - Redeem Based on Discount - User Input - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 1 (0.88%),FAILED: 14 (12.28%),BLOCKED: 99 (86.84%),,"
+ARGO-143112,SIT2 RCG & IBS_Credits - Redeem Based on Discount - User Input - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 76 (100%),,,,"
+ARGO-143111,SIT2 RCG & IBS_Credits - Redeem Based on Discount - User Input - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 49 (57.65%),FAILED: 13 (15.29%),BLOCKED: 23 (27.06%),,"
+ARGO-143106,SIT2 RCG & IBS_Credits - Redeem Based on Discount - User Input - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 47 (40.52%),FAILED: 39 (33.62%),BLOCKED: 30 (25.86%),,"
+ARGO-143105,SIT2 RCG & IBS_Credits - Credit Action upon cxl of BKG - Package Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 9 (7.63%),FAILED: 54 (45.76%),BLOCKED: 55 (46.61%),,"
+ARGO-143104,SIT2 RCG & IBS_Credits - Credit Action upon cxl of BKG - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 2 (2.17%),BLOCKED: 90 (97.83%),,,"
+ARGO-143103,SIT2 RCG & IBS_Credits - Credit Action upon cxl of BKG - Group Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 92 (100%),,,,"
+ARGO-143102,SIT2 RCG & IBS_Credits - Credit Action upon cxl of BKG - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 39 (35.45%),FAILED: 64 (58.19%),BLOCKED: 7 (6.36%),,"
+ARGO-143101,SIT2 RCG & IBS_Credits - List Credits,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 45 (91.84%),FAILED: 4 (8.16%),,,"
+ARGO-139499,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Penalty - FIT Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 53 (64.63%),FAILED: 23 (28.05%),BLOCKED: 3 (3.66%),N/A: 3 (3.66%),"
+ARGO-139498,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Penalty - Agency Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 39 (45.88%),FAILED: 25 (29.41%),BLOCKED: 21 (24.71%),,"
+ARGO-139497,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Penalty - Group Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 25 (44.65%),FAILED: 11 (19.64%),BLOCKED: 16 (28.57%),N/A: 4 (7.14%),"
+ARGO-139496,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Penalty - Package Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 36 (43.9%),FAILED: 37 (45.12%),BLOCKED: 1 (1.22%),N/A: 8 (9.76%),"
+ARGO-139494,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Refund - Package Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 15 (20.55%),FAILED: 17 (23.29%),BLOCKED: 32 (43.83%),N/A: 9 (12.33%),"
+ARGO-139493,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Refund - Agency Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 19 (26.03%),FAILED: 14 (19.18%),BLOCKED: 37 (50.68%),N/A: 3 (4.11%),"
+ARGO-139491,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Refund - Group Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 45 (100%),,,,"
+ARGO-139490,SIT2 RCG & IBS_Credits - Grant Refund & Penalty Credits - Refund - FIT Bkg,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 21 (28.77%),FAILED: 12 (16.44%),BLOCKED: 37 (50.68%),N/A: 3 (4.11%),"
+ARGO-139485,SIT2 RCG & IBS_Credits - Grant Credits from Agency Profile - Package Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 16 (44.44%),FAILED: 17 (47.23%),N/A: 3 (8.33%),,"
+ARGO-139484,SIT2 RCG & IBS_Credits - Grant Credits from Agency Profile - Group Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 19 (59.37%),FAILED: 13 (40.63%),,,"
+ARGO-139483,SIT2 RCG & IBS_Credits - Grant Credits from Agency Profile - Agency Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 89 (64.96%),FAILED: 45 (32.85%),N/A: 3 (2.19%),,"
+ARGO-138031,SIT2 RCG & IBS_Credits - Grant Credits from Customer Profile - Package Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 25 (62.5%),FAILED: 14 (35%),N/A: 1 (2.5%),,"
+ARGO-138030,SIT2 RCG & IBS_Credits - Grant Credits from Customer Profile - Group Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 18 (52.94%),FAILED: 13 (38.24%),N/A: 3 (8.82%),,"
+ARGO-138029,SIT2 RCG & IBS_Credits - Grant Credits from Customer Profile - FIT Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 76 (53.15%),FAILED: 57 (39.86%),N/A: 10 (6.99%),,"
+ARGO-137274,SIT2 RCG & IBS_Credits - Transfer Credits - Package Booking,Select a Priority,QA Failed,SIT2 Hardening Testing,,,"PASSED: 13 (44.83%),FAILED: 16 (55.17%),,,"
+ARGO-137273,SIT2 RCG & IBS_Credits - Transfer Credits - Agency Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 18 (48.65%),FAILED: 10 (27.03%),N/A: 9 (24.32%),,"
+ARGO-137272,SIT2 RCG & IBS_Credits - Transfer Credits - Group Booking,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 30 (71.43%),FAILED: 12 (28.57%),,,"
+ARGO-137271,SIT2 RCG & IBS_Credits - Transfer Credits - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 19 (51.36%),FAILED: 12 (32.43%),BLOCKED: 5 (13.51%),N/A: 1 (2.7%),"
+ARGO-136587,SIT2 RCG & IBS_Credits Entitlements - Customer,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 47 (79.66%),FAILED: 12 (20.34%),,,"
+ARGO-136586,SIT2 RCG & IBS_Credits Entitlements - Agency,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 40 (67.8%),FAILED: 15 (25.42%),BLOCKED: 4 (6.78%),,"
+ARGO-135636,SIT2 RCG & IBS_Credits - Credit Template Privileges,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 18 (100%),,,,"
+ARGO-135634,SIT2 RCG & IBS_Credits - Credit Template,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 101 (83.47%),FAILED: 20 (16.53%),,,"
+ARGO-135633,SIT2 RCG & IBS_Credits - Credit Template List and Search,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 40 (95.24%),FAILED: 2 (4.76%),,,"
+ARGO-135331,SIT2 RCG & IBS_Transfer Shopping & Booking (Rule & Promotions) - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (1.37%),BLOCKED: 72 (98.63%),,,"
+ARGO-135330,SIT2 RCG & IBS_Transfer Shopping & Booking (Rule & Promotions) - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"BLOCKED: 69 (100%),,,,"
+ARGO-135328,SIT2 RCG & IBS_Copy Ship,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 23 (100%),,,,"
+ARGO-133691,SIT2 RCG & IBS_ Setup Screen_Transfer,Select a Priority,Done,SIT2 Hardening Testing,,,"PASSED: 144 (84.21%),FAILED: 27 (15.79%),,,"
+ARGO-132802,SIT2 RCG & IBS_Hotel_Shopping_Booking (Rule  & Promotions) - Agency Booking,Select a Priority,QA Failed,SIT2 Hardening Testing,,,"PASSED: 11 (17.74%),FAILED: 51 (82.26%),,,"
+ARGO-132801,SIT2 RCG & IBS_Hotel_Shopping_Booking (Rule  & Promotions) - FIT Booking,Select a Priority,QA Failed,SIT2 Hardening Testing,,,"PASSED: 20 (32.26%),FAILED: 42 (67.74%),,,"
+ARGO-132112,"SIT2 RCG & IBS_Surcharges, Taxes & Fees - MISC",Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 2 (2.44%),FAILED: 5 (6.1%),BLOCKED: 75 (91.46%),"
+ARGO-132110,"SIT2 RCG & IBS_Surcharges, Taxes & Fees - Transfer",Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 1 (1.25%),BLOCKED: 79 (98.75%),,"
+ARGO-132109,"SIT2 RCG & IBS_Surcharges, Taxes & Fees - Hotel",Select a Priority,Blocked,SIT2 Hardening Testing,,,"FAILED: 2 (1.94%),BLOCKED: 101 (98.06%),,"
+ARGO-131478,SIT2 RCG & IBS_Cruise Shopping - Search & Listing - NFR Improvement for large dates or big ships,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 61 (57.55%),FAILED: 11 (10.38%),BLOCKED: 19 (17.92%),N/A: 15 (14.15%),"
+ARGO-131477,SIT2 RCG & IBS_Package Promotions - Package level & CRU level - FIT Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 45 (67.16%),FAILED: 7 (10.45%),BLOCKED: 15 (22.39%),,"
+ARGO-131476,SIT2 RCG & IBS_Package Promotions - Package level & CRU level - Agency Booking,Select a Priority,Blocked,SIT2 Hardening Testing,,,"PASSED: 30 (44.78%),FAILED: 3 (4.48%),BLOCKED: 33 (49.25%),N/A: 1 (1.49%),"
+"ARGO-131475;""SIT2 RCG & IBS_Agency Uploads,,,,",,,,,,,
+"TESTING;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 88 (88%),FAILED: 12 (12%)
+ARGO-131474;SIT2 RCG & IBS_Surcharges, Taxes & Fees - Package;Select a Priority;Blocked;SIT2 Hardening Testing;;;BLOCKED: 82 (100%)
+ARGO-131473;SIT2 RCG & IBS_Surcharges, Taxes & Fees - AIR;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 47 (65.28%),FAILED: 24 (33.33%),N/A: 1 (1.39%)
+ARGO-131472;SIT2 RCG & IBS_Surcharges, Taxes & Fees - Cruise;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 87 (79.09%),FAILED: 23 (20.91%)
+ARGO-130199;SIT2 RCG & IBS_Cruise Inventory - Setup & Selling/Booking (NFR and Propogations) - Cruise Amendment & Cancellation;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 10 (66.67%),FAILED: 5 (33.33%)
+ARGO-130197;SIT2 RCG & IBS_Cruise Inventory - Setup & Selling/Booking (NFR and Propogations) - Limit Block;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 69 (98.57%),FAILED: 1 (1.43%)
+ARGO-130196;SIT2 RCG & IBS_Cruise Inventory - Setup & Selling/Booking (NFR and Propogations) - GTY Propagation;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 44 (93.62%),FAILED: 3 (6.38%)
+ARGO-130195;SIT2 RCG & IBS_Cruise Inventory - Setup & Selling/Booking (NFR and Propogations) - Block Propagation;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 26 (89.66%),FAILED: 3 (10.34%)
+ARGO-130193;SIT2 RCG & IBS_Cruise Inventory - Setup & Selling/Booking (NFR and Propogations) - Generic Cutback & Release;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 28 (46.66%),FAILED: 25 (41.67%),BLOCKED: 7 (11.67%)
+ARGO-130192;SIT2 RCG & IBS_Bulk Ops - Itinerary Changes - Impacted Package Bookings;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 53 (73.61%),FAILED: 19 (26.39%)
+ARGO-130191;SIT2 RCG & IBS_Bulk Ops - Itinerary Changes - Cruise Length Change;Select a Priority;Blocked;SIT2 Hardening Testing;;;FAILED: 1 (12.5%),BLOCKED: 7 (87.5%)
+ARGO-130190;SIT2 RCG & IBS_Bulk Ops - Itinerary Changes - Time_Date_Port Changes;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 68 (60.71%),FAILED: 41 (36.61%),BLOCKED: 3 (2.68%)
+ARGO-130188;SIT2 RCG & IBS_Bulk Ops - Cabin Clearance;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 22 (59.46%),FAILED: 14 (37.84%),N/A: 1 (2.7%)
+ARGO-129694;SIT2 RCG & IBS_Yield Adjustments;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 35 (85.37%),FAILED: 6 (14.63%)
+ARGO-129693;SIT2 RCG & IBS_Per Person - Cabin Rates Definition;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 83 (80.58%),FAILED: 20 (19.42%)
+ARGO-129692;SIT2 RCG & IBS_Per Person - Add Rate Plan Definition;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 57 (82.61%),FAILED: 12 (17.39%)
+ARGO-128821;SIT2 RCG & IBS_Package Shopping & Booking - AIR - Agency Package;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 39 (37.14%),FAILED: 6 (5.71%),BLOCKED: 60 (57.15%)
+ARGO-128820;SIT2 RCG & IBS_Package Shopping & Booking - AIR;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 57 (54.28%),FAILED: 36 (34.29%),BLOCKED: 12 (11.43%)
+ARGO-128819;SIT2 RCG & IBS_Package Amendment;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 83 (79.81%),FAILED: 21 (20.19%)
+ARGO-128817;SIT2 RCG & IBS_Package Shopping & Booking - TRF;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 87 (77.68%),FAILED: 22 (19.64%),N/A: 3 (2.68%)
+ARGO-128696;SIT2 RCG & IBS_Agency Commission Shopping - Booking Level Commission;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 1 (4.35%),FAILED: 12 (52.17%),BLOCKED: 10 (43.48%)
+ARGO-128695;SIT2 RCG & IBS_Agency Commission Shopping - Commission Restriction;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 20 (19.8%),FAILED: 30 (29.7%),BLOCKED: 51 (50.5%)
+ARGO-128694;SIT2 RCG & IBS_Agency Commission Shopping - Standard Commission;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 34 (34%),FAILED: 53 (53%),BLOCKED: 13 (13%)
+ARGO-128693;SIT2 RCG & IBS_Agency Commission Shopping - Bonus Commission;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 25 (89.29%),FAILED: 3 (10.71%)
+ARGO-128692;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - Package Details;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 19 (95%),FAILED: 1 (5%)
+ARGO-128691;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - View Agency Commission;Select a Priority;Blocked;SIT2 Hardening Testing;;;FAILED: 1 (2.78%),BLOCKED: 35 (97.22%)
+ARGO-128690;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - Delete Package from Cart;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 21 (100%)
+ARGO-128689;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - Add New Package to Cart;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 13 (68.42%),FAILED: 6 (31.58%)
+ARGO-128688;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - Prior to Booking - Revalidate Cart (Automated);Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 12 (100%)
+ARGO-128687;SIT2 RCG & IBS_Package Shopping & Booking - Review Cart - Prior to Booking - Revalidate Cart (Manual);Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 27 (81.82%),FAILED: 6 (18.18%)
+ARGO-127786;SIT2 RCG & IBS_Groups  - TC Policy - Modify TC Policy and Display TC credits n bookings;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 19 (5.16%),FAILED: 11 (2.99%),BLOCKED: 155 (42.12%),N/A: 183 (49.73%)
+ARGO-127785;SIT2 RCG & IBS_Groups  - TC Policy - View Tour Conductor Policies;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 6 (75%),FAILED: 2 (25%)
+ARGO-127784;SIT2 RCG & IBS_Groups  - TC Policy - List Tour Conductor Policies;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 52 (92.85%),FAILED: 3 (5.36%),N/A: 1 (1.79%)
+ARGO-127783;SIT2 RCG & IBS_Groups  - TC Policy - Activate Deactivate Delete TC Policy;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 13 (100%)
+ARGO-127782;SIT2 RCG & IBS_Groups  - TC Policy - Modify TC policy;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 61 (91.05%),FAILED: 5 (7.46%),N/A: 1 (1.49%)
+ARGO-127781;SIT2 RCG & IBS_Hotel Shopping & Booking - B2E Booking;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 7 (100%)
+ARGO-127780;SIT2 RCG & IBS_Hotel Shopping & Booking - Add Item from Booking;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 4 (100%)
+ARGO-127779;SIT2 RCG & IBS_Hotel Shopping & Booking - Add to Cart;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 6 (100%)
+ARGO-127778;SIT2 RCG & IBS_Hotel Shopping & Booking - Availability Details;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 13 (100%)
+ARGO-127777;SIT2 RCG & IBS_Hotel Shopping & Booking - Add Item from Cart;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 4 (100%)
+ARGO-127776;SIT2 RCG & IBS_Hotel Shopping & Booking - Availability Search Results;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 9 (100%)
+ARGO-127775;SIT2 RCG & IBS_Hotel Shopping & Booking - Availability Search;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 13 (100%)
+ARGO-127774;SIT2 RCG & IBS_Hotel Shopping & Booking - Advanced Search;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 15 (100%)
+ARGO-127773;SIT2 RCG & IBS_Hotel_Amendments - Override;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 12 (70.59%),FAILED: 5 (29.41%)
+ARGO-127772;SIT2 RCG & IBS_Hotel_Amendments - Modification - Amendment Policy;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 10 (45.46%),FAILED: 8 (36.36%),N/A: 4 (18.18%)
+ARGO-127771;SIT2 RCG & IBS_Hotel_Amendments - Modify Check in Check out Dates;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 3 (42.86%),FAILED: 4 (57.14%)
+ARGO-127770;SIT2 RCG & IBS_Hotel_Amendments - Modify Rate Plans;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 2 (33.33%),FAILED: 4 (66.67%)
+ARGO-127769;SIT2 RCG & IBS_Hotel_Amendments - Add or Remove Passenger;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 2 (25%),FAILED: 6 (75%)
+ARGO-127768;SIT2 RCG & IBS_Hotel_Amendments - Add or Edit Passenger;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 2 (22.22%),FAILED: 2 (22.22%),N/A: 5 (55.56%)
+ARGO-127767;SIT2 RCG & IBS_Misc Amendment - Overrides;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 17 (77.27%),FAILED: 5 (22.73%)
+ARGO-127766;SIT2 RCG & IBS_Misc Amendment - Modification - Amendment Policy;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 28 (53.85%),FAILED: 24 (46.15%)
+ARGO-127765;SIT2 RCG & IBS_Misc Amendment - Modify Check in Check out;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 2 (28.57%),FAILED: 3 (42.86%),N/A: 2 (28.57%)
+ARGO-127764;SIT2 RCG & IBS_Misc Amendment - Modify Rate Plans;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 21 (80.77%),FAILED: 5 (19.23%)
+ARGO-127763;SIT2 RCG & IBS_Misc Amendment - Inventory Check;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 11 (55%),FAILED: 6 (30%),N/A: 3 (15%)
+ARGO-127762;SIT2 RCG & IBS_Misc Amendment - Add or Remove Passenger;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 17 (77.27%),FAILED: 5 (22.73%)
+ARGO-127761;SIT2 RCG & IBS_Misc Amendment - Add or Edit Passenger;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 10 (35.71%),FAILED: 18 (64.29%)
+ARGO-127760;SIT2 RCG & IBS_Hotel Cancellation - Cancel with B2E booking;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 17 (100%)
+ARGO-127759;SIT2 RCG & IBS_Hotel Cancellation - Cancel with Cancellation Policy;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 59 (100%)
+ARGO-127758;SIT2 RCG & IBS_Hotel Cancellation - Cancel Item and Cancel Booking;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 12 (100%)
+ARGO-127757;SIT2 RCG & IBS_Agency Set up - Meta Tag Key-value;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 14 (70%),FAILED: 6 (30%)
+ARGO-127756;SIT2 RCG & IBS_Agency Set up - Ordering of search results;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 48 (92.31%),FAILED: 4 (7.69%)
+ARGO-127062;SIT2 RCG & IBS_ Setup Screen_Transfer (OLD);Select a Priority;N/A;SIT2 Hardening Testing;;;PASSED: 224 (31.2%),FAILED: 31 (4.32%),EXECUTING: 162 (22.56%),TO DO: 301 (41.92%)
+ARGO-126200;SIT2 RCG & IBS_Hotel Catalogue;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 132 (76.3%),FAILED: 37 (21.39%),N/A: 4 (2.31%)
+ARGO-126199;SIT2 RCG & IBS_Hotel Inventory;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 40 (76.92%),FAILED: 12 (23.08%)
+ARGO-126198;SIT2 RCG & IBS_Hotel Controls;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 8 (100%)
+ARGO-126197;SIT2 RCG & IBS_Hotel Categories;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 39 (90.7%),FAILED: 4 (9.3%)
+ARGO-126195;SIT2 RCG & IBS_Hotel Rate Plan;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 87 (60%),FAILED: 58 (40%)
+ARGO-126194;SIT2 RCG & IBS_Internal Air Selling - Air Shopping and Booking;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 17 (42.5%),FAILED: 13 (32.5%),EXECUTING: 2 (5%),TO DO: 8 (20%)
+ARGO-126192;SIT2 RCG & IBS_Excel Upload - Internal Air Setup - Air Catalogue;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 90 (100%)
+ARGO-126191;SIT2 RCG & IBS_Excel Upload - Internal Air Setup - Flight Definition & Inventory;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 52 (35.14%),FAILED: 28 (18.92%),EXECUTING: 46 (31.08%),TO DO: 22 (14.86%)
+ARGO-126190;SIT2 RCG & IBS_Excel Upload - Internal Air Setup - Air Contract- Cost & Price;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 27 (16.88%),FAILED: 2 (1.25%),EXECUTING: 35 (21.88%),TO DO: 96 (59.99%)
+ARGO-126186;SIT2 RCG & IBS_Excel Upload - Internal Air Setup - Air Contract Route;Select a Priority;On Hold;SIT2 Hardening Testing;;;TO DO: 92 (100%)
+ARGO-126183;SIT2 RCG & IBS_AIR - Air Contract (Supplier > Supplier Contract) - Air Contract, Cost & Price Definition;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 111 (29.92%),FAILED: 37 (9.97%),BLOCKED: 3 (0.81%),N/A: 220 (59.3%)
+ARGO-126182;SIT2 RCG & IBS_AIR - Organizational Settings > Air;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 97 (90.65%),FAILED: 8 (7.48%),EXECUTING: 2 (1.87%)
+ARGO-126181;SIT2 RCG & IBS_AIR - Finance > Surcharges and Taxes (AIR);Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 65 (60.18%),FAILED: 8 (7.41%),N/A: 1 (0.93%),EXECUTING: 16 (14.81%),TO DO: 18 (16.67%)
+ARGO-126180;SIT2 RCG & IBS_AIR - Catalogue Definition (Product > Air > Definitions);Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 110 (89.43%),FAILED: 12 (9.76%),N/A: 1 (0.81%)
+ARGO-126179;SIT2 RCG & IBS_AIR - Inventory Management (Flight Inventory);Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 9 (2.97%),FAILED: 1 (0.33%),EXECUTING: 24 (7.92%),TO DO: 269 (88.78%)
+ARGO-126178;SIT2 RCG & IBS_AIR - Flight Definition (Product > Air > Negotiated Inventory) - Generic Air Set up;Select a Priority;On Hold;SIT2 Hardening Testing;;;PASSED: 38 (34.55%),FAILED: 3 (2.73%),EXECUTING: 43 (39.08%),TO DO: 26 (23.64%)
+ARGO-125636;SIT2 RCG & IBS_Group Agency - Override Commission;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 32 (56.14%),FAILED: 25 (43.86%)
+ARGO-125635;SIT2 RCG & IBS_Package Agency - Override Commission;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 45 (67.16%),FAILED: 22 (32.84%)
+ARGO-125634;SIT2 RCG & IBS_FIT Agency - Override Commission;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 33 (49.26%),FAILED: 25 (37.31%),BLOCKED: 9 (13.43%)
+ARGO-123923;SIT2 RCG & IBS_Cruise Promotions - Different item Promotion - Application & Ancillary Mapping- Booking Confirmation;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 48 (20.51%),FAILED: 99 (42.31%),BLOCKED: 9 (3.85%),N/A: 78 (33.33%)
+ARGO-123922;SIT2 RCG & IBS_Cruise Promotions - Different item Promotion - Application & Ancillary Mapping- Category Listing;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 52 (50%),FAILED: 52 (50%)
+ARGO-123921;SIT2 RCG & IBS_Cruise Promotions - Different item Promotion - Application & Ancillary Mapping- Review Cart;Select a Priority;In QA;SIT2 Hardening Testing;;;PASSED: 5 (5.62%),FAILED: 8 (8.99%),N/A: 27 (30.34%),TO DO: 49 (55.05%)
+ARGO-123918;SIT2 RCG & IBS_Promotions - Group Booking;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 87 (67.97%),FAILED: 41 (32.03%)
+ARGO-123917;SIT2 RCG & IBS_Promotions - Agency Booking;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 156 (68.42%),FAILED: 62 (27.19%),N/A: 10 (4.39%)
+ARGO-123487;SIT2 RCG & IBS_Promotions - FIT Booking;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 189 (76.82%),FAILED: 47 (19.11%),N/A: 10 (4.07%)
+ARGO-122240;SIT2 RCG & IBS_Cruise Amendments & Cancellation;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 192 (64.65%),FAILED: 69 (23.23%),BLOCKED: 35 (11.78%),N/A: 1 (0.34%)
+ARGO-121725;SIT2 RCG & IBS_Cruise Ancillaries - Setup & Selling - Booking Confirmation;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 88 (66.66%),FAILED: 34 (25.76%),N/A: 10 (7.58%)
+ARGO-121724;SIT2 RCG & IBS_Cruise Ancillaries - Setup & Selling - Review Cart;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 89 (67.42%),FAILED: 22 (16.67%),N/A: 21 (15.91%)
+ARGO-121723;SIT2 RCG & IBS_Cruise Ancillaries - Setup & Selling - Category Listing;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 92 (69.69%),FAILED: 39 (29.55%),N/A: 1 (0.76%)
+ARGO-121722;SIT2 RCG & IBS_Cruise Ancillaries - Setup & Selling - Add ancillary rule;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 37 (61.67%),FAILED: 21 (35%),N/A: 2 (3.33%)
+ARGO-121721;SIT2 RCG & IBS_Cruise Ancillaries - Setup & Selling - List Ancillary;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 33 (89.19%),FAILED: 4 (10.81%)
+ARGO-121720;SIT2 RCG & IBS_Cruise Restrictions - Setup & Selling/Booking - Booking Restriction;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 63 (41.17%),FAILED: 35 (22.88%),BLOCKED: 55 (35.95%)
+ARGO-121719;SIT2 RCG & IBS_Cruise Restrictions - Setup & Selling/Booking - Restricted Occupancy;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 80 (55.56%),FAILED: 46 (31.94%),N/A: 18 (12.5%)
+ARGO-121718;SIT2 RCG & IBS_Cruise Restrictions - Setup & Selling/Booking - General Restriction;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 92 (67.15%),FAILED: 45 (32.85%)
+ARGO-120820;SIT2 RCG & IBS_Booking Inconsistency;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 204 (64.35%),FAILED: 75 (23.66%),N/A: 38 (11.99%)
+ARGO-120266;SIT2 RCG & IBS_Group Booking Amendments - Cruise;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 8 (38.1%),FAILED: 13 (61.9%)
+ARGO-120265;SIT2 RCG & IBS_Groups > Allocation_PP - Cruise;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 40 (88.89%),FAILED: 5 (11.11%)
+ARGO-120264;SIT2 RCG & IBS_Group Shopping and Booking- Cruise;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 68 (88.31%),FAILED: 7 (9.09%),BLOCKED: 2 (2.6%)
+ARGO-120107;SIT2 RCG & IBS_Group Shell Cancellation;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 28 (43.08%),FAILED: 12 (18.46%),BLOCKED: 25 (38.46%)
+ARGO-120106;SIT2 RCG & IBS_Group Booking Cancellation - CRU;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 13 (100%)
+ARGO-120005;SIT2 RCG & IBS_Cancellation and Amendment Policy (Setup) Cruise;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 152 (65.8%),FAILED: 52 (22.51%),N/A: 27 (11.69%)
+ARGO-120004;SIT2 RCG & IBS_Package Shopping and Booking - Cabin Selection Page;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 45 (77.59%),FAILED: 13 (22.41%)
+ARGO-119979;SIT2 RCG & IBS_Package Cancellation;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 85 (72.65%),FAILED: 32 (27.35%)
+ARGO-119415;SIT2 RCG & IBS_Set up Screens - Misc;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 295 (82.4%),FAILED: 61 (17.04%),N/A: 2 (0.56%)
+ARGO-119414;SIT2 RCG & IBS_Ancillary_Misc_Amendment;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 88 (54.32%),FAILED: 74 (45.68%)
+ARGO-119413;SIT2 RCG & IBS_Ancillary_Misc_Shopping & Booking;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 133 (84.18%),FAILED: 24 (15.19%),N/A: 1 (0.63%)
+ARGO-118362;SIT2 RCG & IBS_Modify Cart;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 83 (80.58%),FAILED: 19 (18.45%),N/A: 1 (0.97%)
+ARGO-118361;SIT2 RCG & IBS_Transfer Amendment;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 51 (68%),FAILED: 24 (32%)
+ARGO-118360;SIT2 RCG & IBS_Transfer Cancellation;Select a Priority;Blocked;SIT2 Hardening Testing;;;PASSED: 51 (72.86%),FAILED: 14 (20%),BLOCKED: 5 (7.14%)
+ARGO-118359;SIT2 RCG & IBS_Ancillary_Misc_Cancellation;Select a Priority;QA Failed;SIT2 Hardening Testing;;;PASSED: 19 (46.34%),FAILED: 22 (53.66%)
+ARGO-118358;SIT2 RCG & IBS-Bulk Ops-Bulk Ops - Itinerary Changes (Time Change, Date Change, Port Change, Adding and Deleting port of calls, Changes in pre-cruisepost cruise itinerary- all with Impacted Cruise and Group Bookings)\;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 70 (62.5%),FAILED: 42 (37.5%)
+ARGO-118357; SIT2 RCG & IBS-Bulk Ops-Cabin Configuration Changes;Select a Priority;Done;SIT2 Hardening Testing;;;PASSED: 29 (78.38%),FAILED: 8 (21.62%)
+,,,,",,,,,,,
