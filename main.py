@@ -1,15 +1,27 @@
 import pandas as pd
 import numpy as np
-import tkinter as tk
-from tkinter import filedialog, messagebox
+import streamlit as st
 
-def fix_multiline_csv(path_in: str, path_out: str, sep: str = ";") -> None:
+# THIS FILE IS THE LOGIC FOR THE STREAMLIT APP
+
+
+def fix_multiline_csv(file_in, path_out: str, sep: str = ";") -> None:
    # 1. Read all lines
-   with open(path_in, encoding="utf-8") as f:
-       lines = f.read().splitlines()
+   f = file_in.getvalue().decode("utf-8")
+#    with open(file_in, encoding="utf-8") as f:
+#        lines = f.read().splitlines()
+#    print("STR: ", f)
+   lines = f.splitlines()
+   print("TYPE: ", type(f))
+   
+   print("LINES: ",len(lines))
    # 2. Figure out expected number of fields from the header
    header = lines[0]
+
+   header = header.replace(",", "")
+
    expected_fields = header.count(sep) + 1
+
    # 3. Accumulate logical records
    fixed_lines = [header]
 
@@ -33,74 +45,84 @@ def fix_multiline_csv(path_in: str, path_out: str, sep: str = ";") -> None:
 def clean_csv(in_csv):
     
 # Usage
-    #  in_csv  = "./Data/Test Executions Report 01-07-25 11_43_05.csv"\
-    print("UF NAME: ", in_csv.name)
-    out_csv = f"{in_csv.name}(fixed).csv"
-    fix_multiline_csv(in_csv, out_csv)
-    # 6. Now read with pandas normally
-    df = pd.read_csv(out_csv, sep=";")
+     # in_csv  = "./Data/Test Executions Report 01-07-25 11_43_05.csv"
+     out_csv = f"{in_csv.name}(fixed).csv"
+     fix_multiline_csv(in_csv, out_csv)
+     # 6. Now read with pandas normally
+     df = pd.read_csv(out_csv, sep=";")
 
-    # Separate the status of the different types of test cases form the status column
-    test_cases = {"PASSED JIRA": 0,
-                "TO DO JIRA": 0,
-                "EXECUTING JIRA": 0,
-                "FAILED JIRA": 0,
-                "BLOCKED JIRA": 0,
-                "N/A JIRA": 0,
-                "TOTAL TEST": 0
-                }
+     status_column = ""
 
-    new_columns = test_cases.keys()
+     # This is assuming the last column that has the word Status in it is the one holding the number of test cases of each type
+     for i, c in enumerate(df.keys()):
+         if "Status" in df.keys()[len(df.keys()) - 1 - i]:
+             status_column = df.keys()[len(df.keys()) - 1 - i]
+             break
 
-    for col in new_columns:
-        df[col] = np.zeros(len(df), dtype=int)
-    
-    for index, row in df.iterrows():
-    #    print('ROW: ', row)
-    #    print("AT: ", df.at[index, 'Status'], " INDEX: ", index)
-    # Check the number of each type of status and store it in the dictionary
+     # Separate the status of the different types of test cases form the status column
+     test_cases = {"PASSED JIRA": 0,
+                    "TO DO JIRA": 0,
+                    "EXECUTING JIRA": 0,
+                    "FAILED JIRA": 0,
+                    "BLOCKED JIRA": 0,
+                    "N/A JIRA": 0,
+                    "TOTAL TEST": 0
+                    }
 
-        if "PASSED" in df.at[index, "Status"]:
-            passed_index = df.at[index, "Status"].find("PASSED: ") + 8
-            number_index = df.at[index, "Status"].find(" ", passed_index)
-            test_cases["PASSED JIRA"] = df.at[index, "Status"][passed_index : number_index]  
-        if "TO DO" in df.at[index, "Status"]:
-            todo_index = df.at[index, "Status"].find("TO DO: ") + 7
-            number_index = df.at[index, "Status"].find(" ", todo_index)
-            test_cases["TO DO JIRA"] = df.at[index, "Status"][todo_index : number_index]
+     new_columns = test_cases.keys()
 
-        if "EXECUTING" in df.at[index, "Status"]:
-            executing_index = df.at[index, "Status"].find("EXECUTING: ") + 11
-            number_index = df.at[index, "Status"].find(" ", executing_index)
-            test_cases["EXECUTING JIRA"] = df.at[index, "Status"][executing_index : number_index]
+     for col in new_columns:
+          df[col] = np.zeros(len(df), dtype=int)
 
-        if "FAILED" in df.at[index, "Status"]:
-            failed_index = df.at[index, "Status"].find("FAILED: ") + 8
-            number_index = df.at[index, "Status"].find(" ", failed_index)
-            test_cases["FAILED JIRA"] =df.at[index, "Status"][failed_index : number_index]
+     for index, row in df.iterrows():
+     # Check the number of each type of status and store it in the dictionary
+          if isinstance(df.at[index, status_column], str):
+               if "PASSED" in df.at[index, status_column]:
+                    passed_index = df.at[index, status_column].find("PASSED: ") + 8
+                    number_index = df.at[index, status_column].find(" ", passed_index)
+                    test_cases["PASSED JIRA"] = df.at[index, status_column][passed_index : number_index]  
+               if "TO DO" in df.at[index, status_column]:
+                    todo_index = df.at[index, status_column].find("TO DO: ") + 7
+                    number_index = df.at[index, status_column].find(" ", todo_index)
+                    test_cases["TO DO JIRA"] = df.at[index, status_column][todo_index : number_index]
 
-        if "BLOCKED" in df.at[index, "Status"]:
-            blcoked_index = df.at[index, "Status"].find("BLOCKED: ") + 9
-            number_index = df.at[index, "Status"].find(" ", blcoked_index)
-            test_cases["BLOCKED JIRA"] = df.at[index, "Status"][blcoked_index : number_index]
-        if "N/A" in df.at[index, "Status"]:
-            na_index = df.at[index, "Status"].find("N/A: ") + 5
-            number_index = df.at[index, "Status"].find(" ", na_index)
-            test_cases["N/A JIRA"] = df.at[index, "Status"][na_index : number_index]
+               if "EXECUTING" in df.at[index, status_column]:
+                    executing_index = df.at[index, status_column].find("EXECUTING: ") + 11
+                    number_index = df.at[index, status_column].find(" ", executing_index)
+                    test_cases["EXECUTING JIRA"] = df.at[index, status_column][executing_index : number_index]
 
-        # Set the values to the dictonary value and rest the dictionary
-        test_cases["TOTAL TEST"] = sum(int(test_cases[key]) for key in test_cases.keys())
-        
-        for key in test_cases.keys():
-            df.at[index, key] = int(test_cases[key])
-            test_cases[key] = 0
+               if "FAILED" in df.at[index, status_column]:
+                    failed_index = df.at[index, status_column].find("FAILED: ") + 8
+                    number_index = df.at[index, status_column].find(" ", failed_index)
+                    test_cases["FAILED JIRA"] =df.at[index, status_column][failed_index : number_index]
 
-    
+               if "BLOCKED" in df.at[index, status_column]:
+                    blcoked_index = df.at[index, status_column].find("BLOCKED: ") + 9
+                    number_index = df.at[index, status_column].find(" ", blcoked_index)
+                    test_cases["BLOCKED JIRA"] = df.at[index, status_column][blcoked_index : number_index]
+               if "N/A" in df.at[index, status_column]:
+                    na_index = df.at[index, status_column].find("N/A: ") + 5
+                    number_index = df.at[index, status_column].find(" ", na_index)
+                    test_cases["N/A JIRA"] = df.at[index, status_column][na_index : number_index]
 
-    df.drop('Status', axis=1, inplace=True)
+          # Set the values to the dictonary value and rest the dictionary
+          test_cases["TOTAL TEST"] = sum(int(test_cases[key]) for key in test_cases.keys())
+          
+          for key in test_cases.keys():
+               df.at[index, key] = int(test_cases[key])
+               test_cases[key] = 0
 
-    df.to_csv(out_csv, index=False)
-    return df
+     df.drop(status_column, axis=1, inplace=True)
+
+     df.to_csv(out_csv, index=False)
+     return df
 
 
-# clean_csv(dataset)
+# if __name__ == "__main__":
+#     root = tk.Tk()
+#     root.withdraw()
+#     file_path = filedialog.askopenfilename(title="Select CSV File", filetypes=[("CSV files", "*.csv")])
+#     if file_path:
+#      clean_csv(file_path)
+#     else: 
+#      messagebox.showwarning("No file", "No file selected")
