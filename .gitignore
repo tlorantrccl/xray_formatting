@@ -1,0 +1,11 @@
+# Ignore all .spec files in any location of the repo
+*.spec
+
+#Ignore everything inside the Data/ folder
+Data/**
+
+# But still track the data folder
+!Data/
+
+# Ignore all .csv files in any location of the repo
+*.csv
