@@ -45,15 +45,15 @@ Usage:
 
 Troubleshooting:
 
-• Nothing happens when I double-click<br>
-    <t>• Ensure the file extension is .exe.<br>
-    • Try right-click → Run as administrator to rule out permission issues.<br>
-• File Explorer doesn’t open<br>
-    • Wait 5–10 seconds after launch; the script needs a moment to initialize.<br>
-• I get an error about invalid CSV<br>
-    • Check that your file is plain text, uses commas as delimiters, and has a .csv extension.<br>
-• Output file didn’t appear<br>
-    • Search the same folder for files ending in (fixed).csv.<br>
-    • If it’s not there, re-run the tool and watch for any console errors before it closes.<br>
+- Nothing happens when I double-click<br>
+    - Ensure the file extension is .exe.<br>
+    - Try right-click → Run as administrator to rule out permission issues.<br>
+- File Explorer doesn’t open<br>
+    - Wait 5–10 seconds after launch; the script needs a moment to initialize.<br>
+- I get an error about invalid CSV<br>
+    - Check that your file is plain text, uses commas as delimiters, and has a .csv extension.<br>
+- Output file didn’t appear<br>
+    - Search the same folder for files ending in (fixed).csv.<br>
+    - If it’s not there, re-run the tool and watch for any console errors before it closes.<br>
 
 If the program is not working as expected shoot me an email to: tlorant@rccl.com
